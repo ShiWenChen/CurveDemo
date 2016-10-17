@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "JompLineView.h"
 
 @interface ViewController ()
+@property (nonatomic,weak)IBOutlet JompLineView *jompLineView;
 
 @end
 
@@ -17,13 +19,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    [NSTimer scheduledTimerWithTimeInterval:0.1 repeats:YES block:^(NSTimer * _Nonnull timer) {
+        [self.jompLineView setNeedsDisplay];
+    }];
+    
 }
 
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 
 @end

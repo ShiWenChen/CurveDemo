@@ -14,6 +14,9 @@
 		84BF208D1DB095D100D1881C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84BF208C1DB095D100D1881C /* Assets.xcassets */; };
 		84BF20901DB095D100D1881C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BF208E1DB095D100D1881C /* LaunchScreen.storyboard */; };
 		84BF209B1DB095D200D1881C /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BF209A1DB095D200D1881C /* ____Tests.m */; };
+		84BF20A71DB095F800D1881C /* JompLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BF20A61DB095F800D1881C /* JompLineView.m */; };
+		84BF20AA1DB0BE7600D1881C /* myPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BF20A91DB0BE7600D1881C /* myPoint.m */; };
+		84BF20AD1DB4810C00D1881C /* UIBezierPath+MyBezier.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BF20AC1DB4810C00D1881C /* UIBezierPath+MyBezier.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 		84BF20961DB095D200D1881C /* 心跳曲线Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "心跳曲线Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84BF209A1DB095D200D1881C /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
 		84BF209C1DB095D200D1881C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84BF20A51DB095F800D1881C /* JompLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JompLineView.h; sourceTree = "<group>"; };
+		84BF20A61DB095F800D1881C /* JompLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JompLineView.m; sourceTree = "<group>"; };
+		84BF20A81DB0BE7600D1881C /* myPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myPoint.h; sourceTree = "<group>"; };
+		84BF20A91DB0BE7600D1881C /* myPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myPoint.m; sourceTree = "<group>"; };
+		84BF20AB1DB4810C00D1881C /* UIBezierPath+MyBezier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+MyBezier.h"; sourceTree = "<group>"; };
+		84BF20AC1DB4810C00D1881C /* UIBezierPath+MyBezier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+MyBezier.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +95,12 @@
 				84BF20861DB095D100D1881C /* ViewController.h */,
 				84BF20871DB095D100D1881C /* ViewController.m */,
 				84BF20891DB095D100D1881C /* Main.storyboard */,
+				84BF20A51DB095F800D1881C /* JompLineView.h */,
+				84BF20A61DB095F800D1881C /* JompLineView.m */,
+				84BF20A81DB0BE7600D1881C /* myPoint.h */,
+				84BF20A91DB0BE7600D1881C /* myPoint.m */,
+				84BF20AB1DB4810C00D1881C /* UIBezierPath+MyBezier.h */,
+				84BF20AC1DB4810C00D1881C /* UIBezierPath+MyBezier.m */,
 				84BF208C1DB095D100D1881C /* Assets.xcassets */,
 				84BF208E1DB095D100D1881C /* LaunchScreen.storyboard */,
 				84BF20911DB095D100D1881C /* Info.plist */,
@@ -215,6 +230,9 @@
 			files = (
 				84BF20881DB095D100D1881C /* ViewController.m in Sources */,
 				84BF20851DB095D100D1881C /* AppDelegate.m in Sources */,
+				84BF20A71DB095F800D1881C /* JompLineView.m in Sources */,
+				84BF20AA1DB0BE7600D1881C /* myPoint.m in Sources */,
+				84BF20AD1DB4810C00D1881C /* UIBezierPath+MyBezier.m in Sources */,
 				84BF20821DB095D100D1881C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -410,6 +428,7 @@
 				84BF20A11DB095D200D1881C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84BF20A21DB095D200D1881C /* Build configuration list for PBXNativeTarget "心跳曲线Tests" */ = {
 			isa = XCConfigurationList;
@@ -418,6 +437,7 @@
 				84BF20A41DB095D200D1881C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
