@@ -17,8 +17,7 @@
 		84BF20A71DB095F800D1881C /* JompLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BF20A61DB095F800D1881C /* JompLineView.m */; };
 		84BF20AA1DB0BE7600D1881C /* myPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BF20A91DB0BE7600D1881C /* myPoint.m */; };
 		84BF20AD1DB4810C00D1881C /* UIBezierPath+MyBezier.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BF20AC1DB4810C00D1881C /* UIBezierPath+MyBezier.m */; };
-		84BF20B01DB5CC6900D1881C /* preview1.png in Resources */ = {isa = PBXBuildFile; fileRef = 84BF20AE1DB5CC6900D1881C /* preview1.png */; };
-		84BF20B11DB5CC6900D1881C /* preview2.png in Resources */ = {isa = PBXBuildFile; fileRef = 84BF20AF1DB5CC6900D1881C /* preview2.png */; };
+		84BF20B31DB5D0F400D1881C /* preview.gif in Resources */ = {isa = PBXBuildFile; fileRef = 84BF20B21DB5D0F400D1881C /* preview.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,8 +50,7 @@
 		84BF20A91DB0BE7600D1881C /* myPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myPoint.m; sourceTree = "<group>"; };
 		84BF20AB1DB4810C00D1881C /* UIBezierPath+MyBezier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+MyBezier.h"; sourceTree = "<group>"; };
 		84BF20AC1DB4810C00D1881C /* UIBezierPath+MyBezier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+MyBezier.m"; sourceTree = "<group>"; };
-		84BF20AE1DB5CC6900D1881C /* preview1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = preview1.png; sourceTree = "<group>"; };
-		84BF20AF1DB5CC6900D1881C /* preview2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = preview2.png; sourceTree = "<group>"; };
+		84BF20B21DB5D0F400D1881C /* preview.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = preview.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,8 +114,7 @@
 		84BF20801DB095D100D1881C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				84BF20AE1DB5CC6900D1881C /* preview1.png */,
-				84BF20AF1DB5CC6900D1881C /* preview2.png */,
+				84BF20B21DB5D0F400D1881C /* preview.gif */,
 				84BF20811DB095D100D1881C /* main.m */,
 			);
 			name = "Supporting Files";
@@ -216,9 +213,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				84BF20901DB095D100D1881C /* LaunchScreen.storyboard in Resources */,
+				84BF20B31DB5D0F400D1881C /* preview.gif in Resources */,
 				84BF208D1DB095D100D1881C /* Assets.xcassets in Resources */,
-				84BF20B11DB5CC6900D1881C /* preview2.png in Resources */,
-				84BF20B01DB5CC6900D1881C /* preview1.png in Resources */,
 				84BF208B1DB095D100D1881C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
