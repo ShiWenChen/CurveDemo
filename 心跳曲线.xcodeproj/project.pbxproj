@@ -175,7 +175,8 @@
 				TargetAttributes = {
 					84BF207C1DB095D100D1881C = {
 						CreatedOnToolsVersion = 8.0;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = X585696T4B;
+						ProvisioningStyle = Manual;
 					};
 					84BF20951DB095D200D1881C = {
 						CreatedOnToolsVersion = 8.0;
@@ -367,10 +368,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X585696T4B;
 				INFOPLIST_FILE = "心跳曲线/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ShiWenChen.4.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1f1f8201-d459-4ce0-9b3b-9fde5fc429c4";
+				PROVISIONING_PROFILE_SPECIFIER = TestApp;
 			};
 			name = Debug;
 		};
@@ -378,10 +383,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X585696T4B;
 				INFOPLIST_FILE = "心跳曲线/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ShiWenChen.4.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1f1f8201-d459-4ce0-9b3b-9fde5fc429c4";
+				PROVISIONING_PROFILE_SPECIFIER = TestApp;
 			};
 			name = Release;
 		};
