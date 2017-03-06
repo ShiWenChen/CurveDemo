@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		83C3AE121E6D2EB200AB4EA2 /* JompLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C3AE0D1E6D2EB200AB4EA2 /* JompLineView.m */; };
+		83C3AE131E6D2EB200AB4EA2 /* myPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C3AE0F1E6D2EB200AB4EA2 /* myPoint.m */; };
+		83C3AE141E6D2EB200AB4EA2 /* UIBezierPath+MyBezier.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C3AE111E6D2EB200AB4EA2 /* UIBezierPath+MyBezier.m */; };
 		84BF20821DB095D100D1881C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BF20811DB095D100D1881C /* main.m */; };
 		84BF20851DB095D100D1881C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BF20841DB095D100D1881C /* AppDelegate.m */; };
 		84BF20881DB095D100D1881C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BF20871DB095D100D1881C /* ViewController.m */; };
@@ -14,9 +17,6 @@
 		84BF208D1DB095D100D1881C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84BF208C1DB095D100D1881C /* Assets.xcassets */; };
 		84BF20901DB095D100D1881C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BF208E1DB095D100D1881C /* LaunchScreen.storyboard */; };
 		84BF209B1DB095D200D1881C /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BF209A1DB095D200D1881C /* ____Tests.m */; };
-		84BF20A71DB095F800D1881C /* JompLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BF20A61DB095F800D1881C /* JompLineView.m */; };
-		84BF20AA1DB0BE7600D1881C /* myPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BF20A91DB0BE7600D1881C /* myPoint.m */; };
-		84BF20AD1DB4810C00D1881C /* UIBezierPath+MyBezier.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BF20AC1DB4810C00D1881C /* UIBezierPath+MyBezier.m */; };
 		84BF20B31DB5D0F400D1881C /* preview.gif in Resources */ = {isa = PBXBuildFile; fileRef = 84BF20B21DB5D0F400D1881C /* preview.gif */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +31,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		83C3AE0C1E6D2EB200AB4EA2 /* JompLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JompLineView.h; sourceTree = "<group>"; };
+		83C3AE0D1E6D2EB200AB4EA2 /* JompLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JompLineView.m; sourceTree = "<group>"; };
+		83C3AE0E1E6D2EB200AB4EA2 /* myPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myPoint.h; sourceTree = "<group>"; };
+		83C3AE0F1E6D2EB200AB4EA2 /* myPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myPoint.m; sourceTree = "<group>"; };
+		83C3AE101E6D2EB200AB4EA2 /* UIBezierPath+MyBezier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+MyBezier.h"; sourceTree = "<group>"; };
+		83C3AE111E6D2EB200AB4EA2 /* UIBezierPath+MyBezier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+MyBezier.m"; sourceTree = "<group>"; };
 		84BF207D1DB095D100D1881C /* 心跳曲线.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "心跳曲线.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84BF20811DB095D100D1881C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84BF20831DB095D100D1881C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -44,12 +50,6 @@
 		84BF20961DB095D200D1881C /* 心跳曲线Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "心跳曲线Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84BF209A1DB095D200D1881C /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
 		84BF209C1DB095D200D1881C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		84BF20A51DB095F800D1881C /* JompLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JompLineView.h; sourceTree = "<group>"; };
-		84BF20A61DB095F800D1881C /* JompLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JompLineView.m; sourceTree = "<group>"; };
-		84BF20A81DB0BE7600D1881C /* myPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myPoint.h; sourceTree = "<group>"; };
-		84BF20A91DB0BE7600D1881C /* myPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myPoint.m; sourceTree = "<group>"; };
-		84BF20AB1DB4810C00D1881C /* UIBezierPath+MyBezier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+MyBezier.h"; sourceTree = "<group>"; };
-		84BF20AC1DB4810C00D1881C /* UIBezierPath+MyBezier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+MyBezier.m"; sourceTree = "<group>"; };
 		84BF20B21DB5D0F400D1881C /* preview.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = preview.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,6 +71,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		83C3AE0B1E6D2EB200AB4EA2 /* JumpLineView */ = {
+			isa = PBXGroup;
+			children = (
+				83C3AE0C1E6D2EB200AB4EA2 /* JompLineView.h */,
+				83C3AE0D1E6D2EB200AB4EA2 /* JompLineView.m */,
+				83C3AE0E1E6D2EB200AB4EA2 /* myPoint.h */,
+				83C3AE0F1E6D2EB200AB4EA2 /* myPoint.m */,
+				83C3AE101E6D2EB200AB4EA2 /* UIBezierPath+MyBezier.h */,
+				83C3AE111E6D2EB200AB4EA2 /* UIBezierPath+MyBezier.m */,
+			);
+			path = JumpLineView;
+			sourceTree = "<group>";
+		};
 		84BF20741DB095D100D1881C = {
 			isa = PBXGroup;
 			children = (
@@ -96,13 +109,8 @@
 				84BF20841DB095D100D1881C /* AppDelegate.m */,
 				84BF20861DB095D100D1881C /* ViewController.h */,
 				84BF20871DB095D100D1881C /* ViewController.m */,
+				83C3AE0B1E6D2EB200AB4EA2 /* JumpLineView */,
 				84BF20891DB095D100D1881C /* Main.storyboard */,
-				84BF20A51DB095F800D1881C /* JompLineView.h */,
-				84BF20A61DB095F800D1881C /* JompLineView.m */,
-				84BF20A81DB0BE7600D1881C /* myPoint.h */,
-				84BF20A91DB0BE7600D1881C /* myPoint.m */,
-				84BF20AB1DB4810C00D1881C /* UIBezierPath+MyBezier.h */,
-				84BF20AC1DB4810C00D1881C /* UIBezierPath+MyBezier.m */,
 				84BF208C1DB095D100D1881C /* Assets.xcassets */,
 				84BF208E1DB095D100D1881C /* LaunchScreen.storyboard */,
 				84BF20911DB095D100D1881C /* Info.plist */,
@@ -234,10 +242,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				84BF20881DB095D100D1881C /* ViewController.m in Sources */,
+				83C3AE131E6D2EB200AB4EA2 /* myPoint.m in Sources */,
 				84BF20851DB095D100D1881C /* AppDelegate.m in Sources */,
-				84BF20A71DB095F800D1881C /* JompLineView.m in Sources */,
-				84BF20AA1DB0BE7600D1881C /* myPoint.m in Sources */,
-				84BF20AD1DB4810C00D1881C /* UIBezierPath+MyBezier.m in Sources */,
+				83C3AE121E6D2EB200AB4EA2 /* JompLineView.m in Sources */,
+				83C3AE141E6D2EB200AB4EA2 /* UIBezierPath+MyBezier.m in Sources */,
 				84BF20821DB095D100D1881C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
